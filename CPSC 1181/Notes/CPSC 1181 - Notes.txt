@@ -1,0 +1,97 @@
+CPSC 1181 Notes - Master Copy
+
+
+Classes & Objects (Chapter 2 & 3)
+
+	Object-oriented Programming (OOP): Involves programming using objects
+		- Object: Represents an entity in the real world that can be distinctly identified
+			-> Examples include physical objects and concepts like loans
+			-> Each object has a unique identity, state, and behaviours
+				--> The state defines the object
+				--> The behaviour defines what the object does
+			-> The state of an object consists of a set of data fields, also known as properties, with their current values
+			
+		- Class: Construct that defines objects of the same type
+			-> Uses variables to define data fields and methods to define behaviors
+			-> Provides a special type of method, known as a constructor, in order to construct objects from the class
+			
+__________________________________________________________________________________________________________________
+
+Unit Testing & JUnit
+
+__________________________________________________________________________________________________________________
+
+Arrays & Array Lists (Chapter 7)
+
+__________________________________________________________________________________________________________________
+
+Class Design (Chapter 8)
+
+__________________________________________________________________________________________________________________
+
+Polymorphism (Chapter 9)
+
+__________________________________________________________________________________________________________________
+
+Inheritance (Chapter 10)
+
+__________________________________________________________________________________________________________________
+
+Exception Handling (Chapter 11)
+
+__________________________________________________________________________________________________________________
+
+Software Life Cycle & Unified Modeling Language (Chapter 12)
+
+__________________________________________________________________________________________________________________
+
+GUI (Part 1)
+
+__________________________________________________________________________________________________________________
+
+Interface
+
+__________________________________________________________________________________________________________________
+
+GUI (Part 2)
+
+__________________________________________________________________________________________________________________
+
+Events
+
+__________________________________________________________________________________________________________________
+
+GUI Layout
+
+__________________________________________________________________________________________________________________
+
+Mouse Events & Animation
+
+__________________________________________________________________________________________________________________
+
+Stream (Chapter 19)
+
+	- Two ways to store data
+		> Text Format
+			-> Is human-readable
+			-> Stored in a sequence of characters
+				--> Eg. 12345 is stored as '1''2''3''4''5'
+			-> Uses Reader and Writer and their subclasses to process input and output
+				--> FileReader reader = new FileReader("input.txt");
+					~> Has a method named read to read a single character at a time
+						~~> At the end of input, read will return -1	
+				--> FileWriter writer = new FileWriter("output.txt"); 
+			
+		-> Binary Format
+		
+	
+__________________________________________________________________________________________________________________
+
+Threads (Chapter 21)
+
+	
+__________________________________________________________________________________________________________________
+
+Network (Chapter 22)
+
+__________________________________________________________________________________________________________________

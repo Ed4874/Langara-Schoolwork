@@ -1,0 +1,18 @@
+area = 13 for Bedroom 3 4 java.awt.Color[r=0,g=0,b=255]
+area = 13 for Bedroom 3 4 java.awt.Color[r=255,g=255,b=255]
+area = 12 for Bedroom 3 4 java.awt.Color[r=255,g=255,b=255]
+area = 12 for Bedroom 3 4 java.awt.Color[r=255,g=255,b=255]
+area = 36 for Kitchen 6 6 java.awt.Color[r=255,g=255,b=255]
+
+could not get area of Kitchen 2 3 java.awt.Color[r=255,g=255,b=255] because Area too small
+
+area = 13 for Bedroom 3 4 java.awt.Color[r=0,g=0,b=255]
+house area = 99 but at least 1 were faulty
+
+Bedroom 3 4 java.awt.Color[r=0,g=0,b=255]is different from Bedroom 3 4 java.awt.Color[r=255,g=255,b=255]
+Bedroom 3 4 java.awt.Color[r=255,g=255,b=255]is different from Bedroom 3 4 java.awt.Color[r=255,g=255,b=255]
+Bedroom 3 4 java.awt.Color[r=255,g=255,b=255] same as Bedroom 3 4 java.awt.Color[r=255,g=255,b=255]
+Bedroom 3 4 java.awt.Color[r=255,g=255,b=255]is different from Kitchen 6 6 java.awt.Color[r=255,g=255,b=255]
+Kitchen 6 6 java.awt.Color[r=255,g=255,b=255]is different from Kitchen 2 3 java.awt.Color[r=255,g=255,b=255]
+Kitchen 2 3 java.awt.Color[r=255,g=255,b=255]is different from Bedroom 3 4 java.awt.Color[r=0,g=0,b=255]
+The first room and the last room in the house are the same

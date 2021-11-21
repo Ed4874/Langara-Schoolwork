@@ -1,0 +1,6 @@
+[
+Dog[ weight: 70.0, movement: WALK, Anmal Class: MAMMAL] [breed: Husky], 
+Snake[ weight: 20.0, movement: SWIM, Anmal Class: REPTILE] [snakeType: Sea Snake, isPoisonous: false], 
+Dog[ weight: 50.0, movement: WALK, Anmal Class: MAMMAL] [breed: Poodle], 
+Snake[ weight: 68.0, movement: CRAWL, Anmal Class: REPTILE] [snakeType: King Cobra, isPoisonous: true], 
+Snake[ weight: 15.0, movement: CRAWL, Anmal Class: REPTILE] [snakeType: Garden Snake, isPoisonous: false]]
