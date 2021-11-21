@@ -1,0 +1,102 @@
+1.1
+	Programming - To create/develop software/programs
+	Program/Software - Instructions for telling what your computers should do
+1.2
+	Computer - An electronic device that stores/processes data
+	Hardware - The physical and visible elements of a computer
+		~ Contains the following:
+			-> Central Processing Unit
+				=> Control Unit: Controls and coordinates the actions of other components
+				=> Arithmetic/Logic Unit: Performs numeric and logical operations
+			-> Memory
+			-> Storage Devices
+			-> Input Devices
+			-> Output Devices
+			-> Communication Devices
+	Bus - Physical connection that transfers data and power; built into the motherboard in modern computers
+	Transistors - Tiny electric switches that process information
+	Clock Speed - Enables more information to be processed in a given period of time measured in hz
+	Hertz - 1 pulse a second; modern computers are usually measured in Gigahertz, or one billion hz
+	Cores - A circuit that contains a processing unit that performs data reading and execution; multi-core means multiple processing units
+	Bits - Binary digits
+	Bytes - Minimum storage unit that uses 8 bits; uses 0s and 1s
+		~ Naming Scheme:
+			-> Kilobyte = 1,000 bytes = 8,000 bits
+			-> Megabyte = 1,000,000 bytes = 8,000,000 bits
+			-> Gigabyte = 1,000,000,000 bytes = 8,000,000,000 bits
+			-> Terabyte = 1,000,000,000,000 bytes = 8,000,000,000,000 bits
+	Encoding Scheme - Set of rules that govern how a computer translates characters and numbers into data that the computer can actually read and use
+1.3
+	Machine Language - A computer's native language written in the form of binary code
+	Assembly Language - Created in the early days of programming to allow for easier coding; also known as a low-level language
+	Assembler - Used to translate assembly language programs into machine language
+	High-Level Language - Platform independent programming languages; similar to English and easy to use
+	Statements - Name of instructions in a high-level language
+	Source Program/Code - A program written in a high-level language
+ 	Interpreter - Reads a statement from the source code, translates it into machine language, then executes it immediately; one statement may translate into multiple machine instructions
+	Compiler - Translates the entire source code into machine language, then executed
+1.4
+	Operating System - The program that manages and controls a computer's activities
+		~ Major Tasks of an operating system:
+			-> Controlling and monitoring system activities
+				=> Recognizing inputs from human interface devices
+				=> Outputting signals to the monitor
+				=> Controlling pheripheral devices
+				=> Ensure different programs and users do not interfere with each other
+			-> Allocating and assigning system resources
+				=> Determines what resources a computers get access to and when a computer gets access to them
+			-> Scheduling Operations
+				=> Multiprogramming - Allows multiple programs to run at the same time by sharing the same CPU
+				=> Multithreading - Allows multiple tasks to be executes at the same time by one program
+				=> Multiprocessing - Running multiple programs concurrently using multiple processors
+	Interrelationship between a computer system:
+		~ User <-----------------
+		   |                    |
+		~ Application Programs  |
+		   |                    |
+		~ Operating System <-----   
+		   |
+		~ Hardware
+1.5
+	Java - A "simple, object-oriented, distributed, interpreted, robust, secure, architecture neutral, portable, high perforamce, multithreaded, and dynamic" programming language used for developing applications
+	World Wide Web - An electronic information repository
+	Interntet - The infrastructure used on the Web
+1.6
+	Java language specification - A technical definition of Java's syntax and semantics
+	Application Program Interface - also known as library; contains predefined classes and interfaces for developing Java programs
+	Java Editions:
+		~ Standard Edition - For developing client-side applications; can be run on desktop
+		~ Enterprise Edition - For developing server-side applications
+		~ Micro Edition - For developing mobile applications; can be run on phones
+	Java Development Toolkit - An implementation of a Java development version
+	Java Runtime Environment - The program used to run Java programs
+	Integrated Development Environment - A software program used to combine editing, compiling, building, and debugging together into one interface
+1.7
+	Class - An object creator similar to a blueprint, must have a name that is same as the program's
+	Main Method - The entry point where the program begins execution
+	Method - A construct that contains statements
+	String - A sequence of characters
+	Statement Terminator - The ending of a Java statement; ends using a semi-colon
+	Reserved Words/Keywords - Words that have a specific meaning in Java and cannot be used for other purposes
+	Braces - Form blocks that group a program's components; wraps before and after each block; can be nested
+		~ Class Blocks - Groups the data and methods of a class
+		~ Method Blocks - Groups the statements of a method
+1.10
+	Syntax Errors - Errors detected by the compilers; are results of erroreous code construction
+	Runtime Errors - Errors that cause the Java program to terminate abnormally; usually caused when a program detects an operation that is impossible to execute
+	Input Errors - Errors caused by human inputs that the program is unable to handle
+	Logic Errors - Errors caused by programs not performing the way it was intended to
+
+	
+
+	
+	
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+5.1
+	Ghz - Also known as a gigahertz; 1,000,000,000 hertz
+	Mhz - Also known as a megahertz; 1,000,000 hertz
+	FSB - Also known as a front-side bus; controls the connection between the processor and then outside world
+	MB - Also known as a megabyte; 1,000,000 bytes
+	Cache - Small, fast memory usually built into a processor
+	Tradeoffs for a Faster Computer:
+		~ Higher speed will consume more power, which may cause circuits to overheat and shut down
+		~ Faster FSB requires faster devices in the outside world, which means circuitry is more expensive
+		~ If cache gets bigger, than the data it holds will become slower, which slows down the processor
+	LED - Light-emitting diode
+		~ Advantages include:
+			-> Lasts longer
+			-> Does not contain mercury
+	GPU - Graphics processing unit
+		~ Can be more powerful than the main processor
+		~ Software often send their commands to the GPU because it can process image signals and display them very quickly
+		~ Has its own memory
+	RAM - Random access memory
+		~ Also known as main memory
+		~ SDRAM stands for synchronous, dynamic random access memory
+		~ Shared memory means that the memory can be accessed by both the central processing unit and the graphics processing unit
+		~ DDR - Also known as double data rate; used to express the type of RAM
+	HDD - Hard Disk Drive
+		~ Often used as the main or secondary storage unit of a computer system
+		~ Contains a rotating disk, which is used to access and write data
+		~ Speed is measured in RPM, or revolutions per minute
+			-> Disks are often found in 5,400 RPM and 7,200 RPM, though there are 15,000 variants available as well
+	SSD - Solid State Drive
+		~ Gradually replacing HDDs
+		~ Technology inside is similar to RAM, except the data stored inside it is not wiped when the system is powered off
+		~ Does not contain moving parts, reads and writes faster as a result
+	DVD - Digital Video Disc
+		~ DVD R indicates the drive can record on special DVDs that can be written to
+			-> DVD -R and +R are two different standards
+			-> Can only be written to once
+		~ DVD RW indicates the drive can be rewritten
+	802.11 - Number of a standard that has been defined by the Institute of Electrical and Electronics Engineers (IEEE) for networking
+		~ Four versions of the standard as of textbook's writing
+			-> 802.11a: Original standard
+			-> 802.11b: A variant of 802.11a
+			-> 802.11g: Supported communication over a longer distance at the expense of slightly slower speed
+			-> 802.11n: Has both greater distance and speed
+	Bluetooth - Another form of wireless network
+		~ Operates at a much shorter range and has a relatively weak signal
+		~ Typically used to connect wireless peripherals
+	Laptop Batteries - Use a special type of technology based on Lithium, as normal rechargeable batteries cannot output the same amount of power
+	
+			

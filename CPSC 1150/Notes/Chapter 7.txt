@@ -1,0 +1,24 @@
+Lecture 26 (Chapter 7)
+
+	Sorting Arrays
+		- Sorting is a common task in computer programming
+		- Many different algorithms have been developed for sorting
+	
+	Insertion Sort
+		- Sorts a list of values by repeatedly inserting an unsorted element into a sorted sublist until the whole list is sorted
+		- Example: int[] myList = {2, 9, 5, 4, 8, 1, 6}; //unsorted
+			> Step 1: Create a new sublist with the first element. Insert the second element into the new sublist. {2} {9, 5, 4, 8, 1, 6}
+			> Step 2: The sorted sublist is now {2, 9}. Insert the third element into the new sublist. {2, 9} {5, 4, 8, 1, 6}
+			> Step 3: The sorted sublist is now {2, 5, 9}. Insert the third element into the new sublist. {2, 5, 9} {4, 8, 1, 6}
+			> Step 4: Continue steps 2 and 3 for the rest of the list. The final sorted sublist will be {1, 2, 4, 5, 6, 8, 9}.
+		- for (int i = 1; 1; i < list,length; i++) {
+			insert list[i] into a sorted sublist list[0..i-1] so that list[0..i] is sorted
+		  }
+		
+	Binary Search
+		- For binary search to work, the elements in an array must already be ordered
+		- Without loss of generality, assume that the array is in ascending order
+		- If the key is less than the middle element, you only need to search the key in the first half of the array
+		- If the key is equal to the middle element, the search ends with a match
+		- If the key is greater than the middle element, you only need to search the key in the second half of the array
+		- 

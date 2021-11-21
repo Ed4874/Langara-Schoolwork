@@ -1,0 +1,18 @@
+Chapter 18 Recursion
+
+	18.1 Introduction
+		- Recursion is a technique that leads to elegant solutions to problems that would otherwise be difficult to program using simple loops
+		- Recursion is programmed using recursive methods, which are methods that invokes themselves
+	
+	18.2 Case Study: Computing Factorials
+		- Recursive methods can invoke itself directly or indirectly
+			~ Direct Recursion: A method calls itself directly from within itself
+			~ Indirect Recursion: Method A calls Method B which will call Method A directly or indirectly.
+		- Base Case: Also known as a stopping condition; A condition that when achieved prevents a method, and by extension a program, from looping infinitely
+		- Recursive Call: A method call that summons itself with a different argument
+		- Infinite Recursion: A phenomenon that occurs when recursion does not reduce the problem into a manner that allows it eventually converse into the base case
+	
+	18.3 Case Study: Computing Fibonacci Numbers
+		- Fibonacci Series: A infinite series that starts with 0 and 1, and each subsequent number is the sum of the preceding two
+			~ First 10 Fibonacci Numbers: 0 1 1 2 3 5 8 13 21 34
+			

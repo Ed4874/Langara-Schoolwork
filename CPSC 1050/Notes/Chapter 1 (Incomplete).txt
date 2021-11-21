@@ -1,0 +1,28 @@
+1.1 Computing Systems
+
+	Computer - Device
+	Computing System - A combination of hardware, software, and data used to solve problems.
+                 - Similar to an onion, with many layers
+                    - From innermost to outermost: Information, Hardware, Programming, Operating Systems, Applications, Communications
+		       - Information: The way we represent information on a computer. Managed using binary (0s and 1s)
+		       - Hardware: Consists of the physical hardware of a computer system, such as circuits, CPUs, GPUs, memory, and storage, etc
+		       - Programming: Deals with software, which are the instructions used to compute and solve problems
+		       - Operating System: The system used to help manage resources and act as a terminal for us to interact with the computer system
+		       - Application: The layer that we interact with to solve real world problems. Using application, we could also play games or design 3D objects, among other things
+		       - Communication: Connects to a network in which the computer system can communicate with other systems or store information in cloud storage
+	Computer Hardware - The physical parts of a computer system
+	Computer Software - The programs that provide the instructions for a computer to execute
+	Abstraction - A mental model that removes the complex details of a system, allowing it to be operable by common users. Includes only the necessary information to operate.
+	Information Hiding - Compartmentalizing pieces of information and blocking off access to some in order to access others.
+
+1.2 The History of Computing
+
+	Charles Babbage - Designed the analytical engine. Established the foundations of a computer system which continues to be used today. First to use memory so info would not need to be reinputted. 
+	Ada Augusta, Countess of Lovelace - Credited as the first programmer; created the concept of a loop.
+	Dr. Herman Hollerith - Developed the first electro-mechanical tabulator, which read info from a punch card. Later founded IBM.
+	Alan M. Turing - Invented the abstract mathematical model known as a Turing machine. Expanded the horizons for computing theory.
+
+	First Generation (1951 - 1959)
+		- Commercial computers were built using vacuum tubes
+		- Memory devices were magnetic drums which rotated under a read/write head
+		- 

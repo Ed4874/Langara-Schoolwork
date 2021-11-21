@@ -1,0 +1,37 @@
+/**Shows program description.*/
+
+import java.util.*
+
+public class edwardLWindChillCalculator
+{
+	public static void main(String[] args)
+	{
+		//initializing variables
+		double ta, velocity;
+		
+		while (true) { //creates a while loop that will loop as long as the ta value is not fulfilled
+			Create a new scanner object;
+			set ta as the input's variable
+			if ta is between -50 and 5 degrees,
+				break the loop;
+			}
+			if ta is not between -50 and 5 degrees,
+				print "Temperature is out of range. Please enter a valid value." and restart the loop
+			}
+		}
+		System prints out "Enter the wind speed in km/h: " 
+		while (true) { //creates a while loop that will loop as long as the velocity value is not fulfilled
+			creates a new scanner object (this is because the earlier scanner was part of a loop that had been ended)
+			set velocity as the input's variable
+			if (0 <= velocity && velocity <= 100) {
+				break;
+			}
+			else if (0 > velocity || velocity > 100) {
+				System.out.println("Wind speed is out of range. Please enter a valid value.");
+			}
+		}
+	initiatizing and declaring double twc as 13.122 + (0.6215*ta) - (11.37*Math.pow(velocity, 0.16)) + (0.3965*ta*Math.pow(velocity, 0.16));
+	System prints out "The wind chill index is " + twc + " degrees Celsius"
+	}
+}
+				

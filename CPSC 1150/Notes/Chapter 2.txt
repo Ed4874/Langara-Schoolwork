@@ -1,0 +1,158 @@
+2.2
+	Algorithm - A set of rules that lists the process/steps for solving a problem; can be described in a natural language or in "pseudocode", aka normal language mixed with code
+	Variable - A representation of a value stored in a computer's memory
+	Data Types - The type of data stored in a variable
+		~ Primitive Data Types:
+			-> Integers
+			-> Real Numbers
+			-> Characters
+			-> Boolean Types
+	Floating-Point Number - All real numbers; can be declared with the keyword double
+	Tracing Program - Used for reviewing and debugging a written program
+	String Concantenation Operator (+) - Can be used for addition or string concatenation, where a string is combined with another string (or number) to form a new string
+2.3
+	Scanner Class - Used for console inputs
+		~ For console inputs:
+			-> Scanner input = new Scanner(System.in);
+				=> This creates a Scanner object and names its variable as input; allows this object to invoke methods
+		~ Found in the java.util package
+	Prompt - Code that asks for the user's input
+	Import Statement - Used to bring classes into the program
+		~ Two types of import statements:
+			-> Specific Import: Imports the specification of a single class into the program
+			-> Wildcard Import: Imports all the classes in a package by using an asterisk as the wildcard
+				=> Example: import java.util.*;
+		~ There are no performance differences between the two types of imports
+	IPO - Input, Process, Output
+		~ Input: Takes in the inputs submitted by the user
+		~ Process: Producing results based on the input provided
+		~ Output: Displays the results
+2.4
+	Identifiers - A sequence of characters that consist of letter, digits, underscores(_), and dollar signs ($)
+		~ Must start with a letter, underscore, or dollar sign; cannot start with a digit
+			-> Should not name identifiers with $ unless used in mechanically generated source code
+		~ Cannot be a reserved word
+		~ Cannot be true, false, or null
+		~ Can be of any length
+		~ Are case sensitive
+			-> Example: Java, java, and JAVA are all unique identifiers
+2.5
+	Variables - Used to store values for use later in the program
+	Declaring Variables - Tells the compiler the variable's name and data type so the compiler can allocate appropriate memory space based on its data type
+	Initializing Variables - Giving the variable a value; can be done at the same time as declaring variables
+	Variable Scope - The part of a program where a variable can be referenced
+2.6
+	Assignment Statement - Assigning a value to a variable
+		~ The equal sign (=) is used as the assignment operator
+	Expression - A computation involving values, variables, and operators to form new values
+	Assignment Expression - A type of expression that assigns the resulting value to a variable
+2.7
+	Constant - Permanent data that will never change
+		~ Also known as a named constant or a final variable
+		~ Example: π (3.1415...) is a constant
+	Final Keyword - Used for declaring a constant
+		~ All final variables are uppercase
+			-> Example: PI
+	Benefits of Constants:
+		~ No need to repeated type the same value
+		~ If you need to change the constant value, you only need to change in a single location in the source code
+		~ Makes the program easy to read
+2.8
+	Naming Variables and Methods - When naming variables and methods, should only use lowercase; in case of multiple words in name, use lowercase for first word and capitalize the first letter of all subsequent words
+	Naming Classes - Capitalize the first letter of every word in a class name
+		~ Do not name class names using preexisting class names
+	Naming Constant - Capitalize every letter in a constant
+2.9
+	IEEE 754 - The standard approved by the Institute of Electrical and Electronics Engineers (or IEEE) for representing floating-point numbers on computers
+	Integer Types:
+		~ Byte - 8-bit signed
+		~ Short - 16-bit signed
+		~ Int - 32-bit signed
+			-> For simplicity, Int will be used predominantly in this book
+		~ Long - 64-bit signed
+	Floating-Point Number Types:
+		~ Float - 32-bit IEEE 754; Known as single precision
+		~ Double - 64-bit IEEE 754; Twice as big as float; known as double precision; should be used more often than float as it is more accurate
+	Methods for Scanner Objects:
+		~ nextByte() - reads an integer of the byte type
+		~ nextShort() - reads an integer of the short type
+		~ nextInt() - reads an integer of the int type
+		~ nextLong() - reads an integer of the long type
+		~ nextFloat() - reads a number of the float type
+		~ nextDouble() - reads a number of the double type
+	Numeric Operators:
+		~ Addition (+)
+		~ Subtraction (-)
+		~ Multiplication (*)
+		~ Division (/)
+		~ Remainder (%)
+	Integer Division - When both operands of a division are integers, the quotient and the fractional part are cut off
+		~ Example: 5 / 2 would become 2 instead of 2.5
+		~ For the decimal part to be included, one of the operands must be a floating-point number
+	Unary Operator - Only has one operand
+		~ Used most commonly to negate a number
+			-> Example: -5
+	Binary Operator - Has two operands
+	Math.pow(a, b) - Used to compute a^b
+		~ Example: Math.pow(2, 3) returns the result 2^3 which is 8
+2.10
+	Literals - A constant value that appears directly in a program
+		~ Example: 23 is a literal when int numberOfYears = 23
+	Floating-Point - Numbers are stored in scientific notation; when numbers are converted into scientific notation, decimal points are moved (aka floated)
+2.11
+	Evaluating an Expression - Follows the rules of BEDMAS, with remainder happening at the same level as multiplication and division
+2.14
+	Addition Assignment Operator - Used to add and store values directly into a variable
+		~ Example: x += y is equivalent to x = x + y
+	Increment (++) and Decrement (--) Operator - Used as shorthand operators to incrementing and decrementing 1 from a variable
+	Preincrement and predecrement - Same effect as the preceding example; however, when used in statements it will use the new variable value instead of the original
+		~ Assume i = 1
+			-> Preincrement: int j = ++i
+				=> Increment var by 1, and use the new var value in the statement
+			-> Increment   : int j = i++
+				=> Increment var by 1, and use the original var value in the statement
+			-> Predecrement: int j = --i
+				=> Increment var by 1, and use the new var value in the statement
+			-> Decrement   : int j = i--
+				=> Increment var by 1, and use the original var value in the statement
+2.15
+	Casting - An operatopm that converts the value of one data type into the value of another data type
+		~ Widening a type: Converting a data type with a small range to a data type with a larger range
+		~ Narrowing a type: Converting a data type with a large range to a data type with a smaller range
+	Loss of Precision - Possible when assigning a value to a variable with a smaller range
+2.16
+	Software Development Process:
+		~ Requirements Specification
+		        |    -------
+		~ System Analysis  |
+		        |          | Input, Process, Output (IPO)
+		~ System Design    |
+		        |    -------
+		~ Implementation
+		        |
+		~ Testing
+		        |
+		~ Deployment
+		        |
+		~ Maintenance
+			-> When necessary, go back to a previous stage to correct errors or fix other issues that may cause the software to function unexpectedly
+	Requirements Specification - A process in which the programmer seeks to understand the problem the software will address and document what the system is expected to do
+	System Analysis - Analyzing the sata flow and identify the input and output of the system
+	System Design - Designing a process to obtain the output desired from the input
+		~ System analysis and design combined is essentially IPO, or input, process, and output
+	Implementation - Translating the system design into programs; involves coding, self-testing, and debugging
+	Testing - Ensuring the code meets the expected requirements and quality control; may employ independent software engineers
+	Deployment - Making the software available for use
+	Maintenance - Updating and improving the product post-release
+2.18
+	Overflow - Happens when a variable is assigned a value that is too large in size to be stored
+	Underflow - Happens when a variable is assigned a value too small in size to be stored (too close to 0)
+	Floating-Point Approximation - Floating-point numbers are approximated, and may lead to rounding errors
+		~ To avoid this, use integers instead, as they are stored precisely
+	
+
+	
+	
+	
+	
+	

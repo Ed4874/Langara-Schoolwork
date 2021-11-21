@@ -1,0 +1,104 @@
+3.1
+	Selection Statements - Statements that allow actions with alternative options
+	Boolean expression - An expression that evualuates to a Boolean value (true or false)
+3.2
+	Boolean Data Type - Declares a variable with a value that is either true or false
+	Relational Operators - Also known as comparison operators; used to compare two values
+		~ Operator List:
+			-> < : Less than
+			-> <=: Less than or equal to
+			-> > : Greater than
+			-> >=: Greater than or equal to
+			-> ==: Equal to
+			-> !=: Not equal to
+	(==) vs (=) - The equality testing operator (==) is different from (=), which is used for assignment
+	Boolean Variable - A variable that holds a Boolean value
+	Boolean Literals - True and false; treated as reserve words, and cannot be used as identifiers in a program	
+3.3
+	If Statement - A construct that enables programs to specify alternative paths of execution
+		~ Executes an action if and only if the condition is true
+	Multiple types of selection statements:
+		~ One-way if statements
+			-> Performs an action if the specified condition is true
+			-> If the condition is false, nothing will happen
+		~ Two-way if-else statements
+			-> Performs a different action depending on whether the specified condition is true
+		~ Nested if statements
+			-> If statements written inside other if statements
+		~ Multi-way if-else statements
+			-> Similar to nested if statements, except the else will trigger another if statement
+		~ Switch statements
+			-> Similar to if statements; will evaluate a switch expression once, then attempt to find a match in the values of each case; executes code within that case if there is a match
+		~ Conditional operators
+	Flowchart - A diagram that describes the process or algorithm by showing the steps as boxes of various kinds and their order by connecting them with arrows.
+3.4
+	If-else Statement - Decides the execution path depending on whether the condition is true or false
+3.7
+	Math.random() - Used to obtain a random double value between 0.0 and 1.0, excluding 1.0
+3.9
+	System.exit(status) = Terminates the currently running program
+		~ If status == 0, means program terminated successfully
+		~ If status != 0, means abnormal termination
+3.10
+	Logical Operators:
+		~ ! : Not
+			-> Logical Negation
+		~ &&: AND
+			-> Logical Conjunction
+		~ ||: OR
+			-> Logical Disjunction
+		~ ^ : EXCLUSIVE OR
+			-> Logical Exclusion
+		~ && and ~~ are also known as the short-circuit or lazy operators
+3.13
+	Switch Statements - Executes statements based on the value of a variable or an expression
+		~ Switch-expression must yield a value of char, byte, short, int, or String and must always be enclosed in parentheses
+		~ Case values are constant expressions, which mean they must never contain variables
+		~ When the value of the case statement matches the value of the switch-expression, the statements within this case will be executed until either a break statement or the end of the switch statement is reached
+		~ Default Case: Optional; can be used to perform actions in the case where no cases match the switch-expression.
+		~ Keyword Break: Optional; immediately ends the switch statement
+3.14
+	Conditional Operators - Evaluates an expression based on a condition
+		~ (?) and (:) appearing together: Known as a ternary operator because it uses three operands; only ternary operator in Java
+3.15
+	Operator Precedence Chart:
+		Precedence	Operator
+		    |		var++ and var-- (Postfix)
+		    |		+, - (Unary plus and minus), ++var and --var (Prefix)
+		    |		(type) (Casting)
+		    |		! (Not)
+		    |		*, /, % (Multiplication, division, and remainder)
+		    |		+, - (Binary addition and subtraction)
+		    |		<, <=, >, >= (Relational)
+		    |		==, != (Equality)
+		    |		^ (Exclusive OR)
+		    |		&& (AND)
+		    |		|| (OR)
+		    ↓		=, +=, -=, *=, /=, %= (Assignment operators)
+
+	Operator Associativity - Relative position of an operator in an equation
+		~ All binary operators except assignment operators are left associative
+		~ Assignment operators are right associative
+3.16
+	Bugs - Logic error
+	Debugging - Process of finding and correcting errors
+	Hand-Tracing - Catching errors by reading the program
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

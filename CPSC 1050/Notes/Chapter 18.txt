@@ -1,0 +1,120 @@
+Chapter 18 - Limitations of Computing
+
+	18.1 Hardware
+			- Numbers are infinite, but the representation of them in the computer is not
+			- Mechanical and electronic failures can fail over time
+			- Data can be processed incorrectly when transferring a file from one system to another
+		
+		Limits on Arithmetic
+			- (Reminder that two's complement is using the leftmost digit of a binary number for postive/negative notation)
+			Integer Numbers
+				- Bit size can affect the size of arithmetic calculations possible
+					~ 16 bits:
+						-> If all positive (unsigned): 0 - 65,535
+						-> If negative and positive (signed): -32,768 - 32,767
+					~ 32 bits:
+						-> Unsigned: 0 - 4,294,967,295
+						-> Signed: -2,147,483,648 - 2,147,483,647
+				- The absolute value of a calculation can get too large to be calculated. In these cases, overflow will occur
+					~ The equivalent of overflow for numbers too small is underflow
+					~ This limitation can be mitigated by software, however, by dividing the large number into a list of smaller numbers
+					
+			Real Numbers
+				- Radix-Point: The point (or period) that denotes the separation of the integer part of a number and the fractional part
+				- Precision: The maximum number of digits that can be displayed
+				- Significant Digits: The digits that begin with the first nonzero digit on the left and end with the last nonzero digit on the right
+					~ Can also represent a zero digit that is exact
+				- We can use one number in a precision to act as an exponent
+					~ In this case, the range of numbers represented is now much larger. However, this comes at the sacrifice of one less sigfig and less accuracy
+					~ We can also add a sign for the number and a sign for the exponent
+						-> By doing this, the precision can cover all numbers within the positive/negative exponent's range with the accuracy of the remaining sigfigs
+				- Representational (Round-Off) Error: An arithmetic error caused as a result of an arithmetic operation being greater than the precision of a system
+				- Cancellation Error: A loss of accuracy when adding or subtracting numbers with widely differing sizes, due to the limits of precision
+		
+		Limits on Components
+				- All hardware components are subject to degradation and failure
+				- Titanic Effect: The severity with which a system fails is directly proportional to the intensity of the designer’s belief that it cannot
+				- Preventative maintenance is the best way to make sure a system fails as little as possible
+					~ Includes housing equipment in an appropriate physical environment
+				
+		Limits on Communications
+			- It is imperative that all data must not be corrupted during transfer between computers.
+				- Error-Detecting Code: Detects when an error occurs and alerts the system of this event
+				- Error-Correcting Code: Not only determines whether an error occured, but also attempt to determine the correct output is
+			Parity Bits
+				- Parity Bits: Used to detect whether an error has occurred between the storing/retrieving or the sending/receiving of a byte
+					~ Is an extra bit associated with each byte in the hardware that uses the scheme
+					~ Odd Parity: Requires the number of 1s in a byte and the parity bit itself to be odd
+						-> Example:
+							--> If 111001100: Parity bit will be 1
+							--> If 111001000: Parity bit will be 0
+						-> Even Parity: Uses the same scheme, but the number of 1 bits must be even
+			
+			Check Digits
+				- Using the sum of the individual digits of a number, a program can add that up and store it for reference
+					~ If one of the digits get corrupted, this will be detected
+					~ One issue that bypasses this error checkpoint could arise when one digit becomes the other, and vice versa
+					~ This scheme can be expanded to carry another digit
+						-> Using this method, one error checking digit can be the sum of the odd digits, and the other can be the sum of the even digits
+			
+			Error-Correcting Codes
+				- It is possible to deduce an error if enough information is kept as backup
+			
+	18.2 Software
+			- Complexity can slow down software, cause errors because programmers are unable to read them, and prevent programmers from fixing them
+			- Software testing can prove the existence of bugs, but cannot prove their nonexistence
+			
+		Software Engineering
+			- In Chapter 7, four stages of computer problem solving was outlined. In addition to those four, two new layers are now added:
+				- (New) Software Requirements: Defining broad, but precise, statements outlining what is to be expected of the product's output
+				- (New) Software Specifications: Creating a detailed outline of the functions, inputs, processing, outputs, and special features of the product
+				- Writing the specification
+				- Developing the algorithm
+				- Implementing the algorithm
+				- Maintaining the program
+			- Software Life Cycle: The concept that software is developed, not just coded, and evolves over time.
+				- Includes the following phases:
+					~ Requirements
+					~ Specifications
+					~ Design (High- and Low-Level)
+					~ Implementation
+					~ Maintenance
+			- Walk-through: A verification method in which a team performs a manual simulation of a program and keeps track of its progress separately
+				- Intended to test intended use case and foster discurrsion about future design choices; will not be able to simulate all possible test cases
+			- Inspection: A verification method where a person (who is not the author) goes through the code step-by-step and points out errors
+				- Other team members may help check for errors during this process
+			- At the high-level design stage, the program design should be compared to the original program requirements to make sure all parts of the program have been implemented correctly
+				- At the low-level design stage, the program should be inspected one more time before being implemented
+				- Another inspection should take place when the program is completed.
+				- These inspections (and/or walkthroughs) make sure the program stays consistent with its original vision
+			- KSLOC: Kilo Source Lines of Code
+			
+		Formal Verification
+			- Verifying program correctness, independent of data testing, is an important area of theoretical computer science research
+				- Proving whether a program works to specification is usually more difficult and complicated than writing the programs itself
+				- This is why building autonomous program testers - programs that verify other programs - is a major focus of verification research
+				
+		Open-Source Movement
+			- The call for software to be released with its source code made available to everyone
+			- Linux is the best-known open-source project
+			- The idea of open source code theoretically allows everyone to proofread each others' work, stamp out bugs, and work toward making the central project better
+				~ May not always happen, as was the case with the Heartbleed bug
+	
+	18.3 Problems
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

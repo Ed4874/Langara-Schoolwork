@@ -1,0 +1,46 @@
+4.1
+	Voltage Level:
+		~ Low Voltage: Has a range of 0 to 2 volts, and is interpreted as a binary 0
+		~ High Voltage: Has a range of 2 to 5 volts, and is interpreted as a binary 1
+	Gate - A device that performs a basic operation on electrical signals
+		~ Accepts one or more input signals and produces one output signal
+		~ There are six fundamental types of gates:
+			-> NOT
+			-> AND
+			-> OR
+			-> XOR
+			-> NAND
+			-> NOR
+	Circuits - Multiple types of gates combined together to perform more complicated tasks
+	Three notational methods are used to describe the behavior of gates and circuits:
+		~ Boolean expression (aka Boolean Algebra)
+			-> Mathematical notation for expressing two-valued logical functions
+		~ Logic diagram
+			-> Graphical representation of a circuit
+		~ Truth table
+			-> Defines the function of a gate by listing all possible input combinations that the gate could encounter,  along with corresponding output
+4.2
+	NOT Gate:
+		~ Accepts one input value and produces one output value
+		~ In Boolean expressions, represented by an apostrophe after negating a value
+		~ Will output the opposite value of the input
+		~ Sometimes referred to as an inverter
+		~ Logic diagram symbol is a triangle with a small circle (known as an inversion bubble) on the end
+	AND Gate:
+		~ Accepts two input signals
+		~ If both signals have a value of 1, the output will be 1; otherwise, the output will be 0
+		~ Expressed using a single dot (·) in Boolean algebra
+		~ The total input combination is the input values squared, while the number of outputs that equal 1 is equal to the number of input 
+		~ Logic diagram symbol is semi-pill shaped
+	OR Gate:
+		~ Accepts two input signals
+		~ If both signals have a value of 0, the output will be 0; otherwise, the output will be 1
+		~ In Boolean algebra, expressed using a plus sign (+)
+		~ The total input combination is the input values squared, while the number of outputs that equal 0 is always 1
+	XOR Gate:
+		~ Means "Exclusive OR"
+		~ Functions mostly the same as the OR Gate; however, if all values match as 1 or 0, the output will be 0.
+		~ 
+		
+		
+		

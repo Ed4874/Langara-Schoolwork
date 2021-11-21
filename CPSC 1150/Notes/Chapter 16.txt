@@ -1,0 +1,97 @@
+Chapter 16 The World Wide Web
+
+	16.1 Spinning the Web
+		- Despite popular belief, Internet and Web are actually fundamentally different things
+		- Internet: A Wide Area Network connecting computer systems together
+		- World Wide Web: The world's most popular internet all connected together using the same protocols
+			~ Is a relatively new idea
+		- Web Page: A document that contains or references different types of data, like text, images, graphics, or programs
+			~ Can contain links, which are connections between one web page and another
+		- Website: A collection of related web pages; usually designed and controlled by the same person or company
+		- Web Browser: A software tool that issues the request for a desired web page and displays it when it arrives
+		- Web Server: A computer set up to respond to web requests
+		- Uniform Resource Locator: Also known as URL; A unique identifier that identifies the specific location of a web page
+		- Search Engine: A website that assists the user in locating other websites
+			~ Popular examples include Google, Yahoo, and Bing
+			~ Stores site information on its database and matches searches to indexed keywords
+		- Instant Messaging: Also known as IM; technology that allows users to send short messages in real time
+			~ Different from texting
+				> Texting is done with phones and sent using a phone number as the identifier whereas IM uses usernames that a user registers with the IM application
+				> IM can also be run on a laptop or desktop
+				> Some IM allow multiple users to participate in the same chat room
+		- Weblogs: Also known as a blog; a website used to publish articles about certain topics like its author's daily life
+		- Cookies: A web-based technology that enhances the abilities and usefulness of the Web to its users
+			~ Are small text files that a web server stores in a computer's storage
+			~ Websites may store cookies to capture information of previous interactions between the user and those websites
+		- Web Analytics: The collection and analysis of data related to website usage
+	
+	16.2 HTML and CSS
+		- Hypertext Markup Language: Also known as HTML; the language used to create and build a webpage/website
+			~ The newest version of HTML is HTML5, which streamlined the tag system and added support for dynamic content
+		- Markup Language: A language that uses tags to annotate the information in a document
+			~ Tags are the syntactic element in a markup language that indicates how a language should be displayed
+		- Cascading Style Sheets: Also known as CSS; used to describe the presentation of a document written in a markup language like HTML
+		- HTML Elements: Individual components of an HTML document that gives meaning to what is displayed
+			~ Common HTML elements:
+				> Paragraph Tag: <p>...</p>
+					-> Used to enclose text that should be treated as an individual paragraph
+				> Horizontal Rule Tag: <hr />
+					-> Inserts a horizontal rule, or line, across the page
+					-> Helpful for breaking up a webpage into sections
+					-> Does not enclose content, so the start and end tags are combined into one
+				> Unordered List Tag: <ul>...</ul>
+					-> Used to display a list using bullet points
+					-> Can be nested; uses different types of bullet points for each layer
+				> Ordered List Tag: <ol>...</ol>
+					-> Used to display a list using numbers
+					-> Can be nested; numbering begins over again at each layer
+				> Single List Item Tag: <li>...</li>
+					-> Used to display a single item in a list
+					-> Must be used within a parent element such as <ul> or <ol>
+				> Heading Tags: <h1>...</h1>, <h2>...</h2>, <h3>...</h3>, <h4>...</h4>, <h5>...</h5>, <h6>...</h6>
+					-> HTML uses 6 predefined heading tags
+					-> The smaller the number is, the larger font it uses
+					-> Displayed in bold by default
+				> Emphasize Tag: <em>...</em>
+					-> Used to emphasize a element
+					-> Displays the text in italics
+				-> Strong Tag: <strong>...</strong>
+					-> Functions similarly to emphasize
+					-> Displays the text in bold
+			~ HTML5 Elements:
+				> <section>
+					-> Define sections of pages
+				> <header>
+					-> Defines the header of a page
+				> <footer>
+					-> Defines the footer of a page
+				> <nav>
+					-> Defines the nagivation elements of a page
+				> <article>
+					-> Defines an article or primary content of a page
+				> <aside>
+					-> Defines secondary content on a sidebar on a page
+				> <figure>
+					-> Defines images that annotate an article
+		- Tag Attribute: Provides additional information about an element
+			~ Takes the following form: attribute-name=value
+			~ Examples of Attributes:
+				> style=”text-align:center”
+					-> Used to center text horizontally across a page
+				> <img src=”image.extension” />
+					-> Used to insert the image stored into the HTML document
+					-> Uses the img element
+					-> Attribute name is called src, which specifies the source of the image
+				> <a href=”wesbite-link.domain”>title</a> 	
+					-> Used to display a text with a link
+					-> Links are specified using the element a, which stands for anchor
+					-> Contains an attribute called href that specifies the destination URL
+					-> By default, text with links are displayed in blue, underlined text
+					
+					
+					
+					
+					
+					
+					
+				
